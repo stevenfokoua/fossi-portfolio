@@ -507,7 +507,7 @@
     <section id="experience" class="py-20 md:py-28" style="background-color: var(--ebony);">
         <div class="container mx-auto px-6">
             <h2 class="section-title-custom" data-aos="fade-up">Work Experience</h2>
-            <p class="section-subtitle-custom" data-aos="fade-up" data-aos-delay="100">My professional journey and practical contributions in various roles.</p>
+            <p class="section-subtitle-custom" data-aos="fade-up" data-aos-delay="100">My professional journey, including hands-on internship experience and practical contributions in technical roles.</p>
             <div class="space-y-12">
                 <div class="card flex flex-col md:flex-row gap-6 items-start" data-aos="fade-up" data-aos-delay="200">
                     <div class="icon-bg shadow-lg flex-shrink-0 mt-1 float-animation">
@@ -517,6 +517,7 @@
                         <h3 class="text-xl md:text-2xl font-semibold mb-1" style="color: var(--white);">Software Development Assistant</h3>
                         <p class="font-medium mb-2" style="color: var(--celadon-light);">Gridhound GmbH, Aachen</p>
                         <p class="text-sm mb-3" style="color: rgba(248, 250, 249, 0.6);">December 2023 - March 2025</p>
+                        <p class="text-sm mb-3" style="color: var(--sand-dollar);">Internship focus: software deployment, application maintenance, and troubleshooting across user devices and infrastructure.</p>
                         <ul class="list-disc list-inside space-y-1.5 text-base text-body">
                             <li>Installed new software and ensured proper configuration.</li>
                             <li>Kept applications up-to-date through regular maintenance.</li>
@@ -628,20 +629,55 @@
     <section id="projects" class="py-20 md:py-28" style="background-color: var(--ebony);">
         <div class="container mx-auto px-6 text-center">
             <h2 class="section-title-custom" data-aos="fade-up">Projects</h2>
-            <p class="section-subtitle-custom" data-aos="fade-up" data-aos-delay="100">This is where I'll showcase my mechatronics projects, personal endeavors, and detailed case studies.</p>
-            <div class="max-w-2xl mx-auto p-6 shadow-lg glow-hover" style="background-color: var(--ebony-light); border-left: 4px solid var(--celadon);" role="alert" data-aos="zoom-in" data-aos-delay="200">
-                <div class="flex text-left">
-                    <div class="py-1">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6 mr-4" style="color: var(--celadon-light);"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+            <p class="section-subtitle-custom" data-aos="fade-up" data-aos-delay="100">A selection of past projects that reflect my interest in embedded systems, engineering tools, and practical software solutions.</p>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 text-left">
+                <div class="card glow-hover" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="flex items-start justify-between gap-4 mb-4">
+                        <div>
+                            <p class="text-sm font-medium uppercase tracking-[0.2em] mb-2" style="color: var(--celadon-light);">Academic Team Project</p>
+                            <h3 class="text-2xl font-semibold" style="color: var(--white);">INT7 Modular Floor Piano</h3>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--celadon-light); flex-shrink: 0;"><path d="M9 18V5l12-2v13"></path><circle cx="6" cy="18" r="3"></circle><circle cx="18" cy="16" r="3"></circle></svg>
                     </div>
-                    <div>
-                        <p class="font-semibold" style="color: var(--white);">Coming Soon!</p>
-                        <p class="text-sm text-body">I am currently preparing detailed descriptions and visuals for my key projects. Check back soon to see examples of my work in action, including university assignments, personal experiments, and contributions from my work experiences.</p>
+                    <p class="mb-5 text-body">Developed as part of Team INT7, this educational and therapeutic floor piano combines modular hardware with programmable software so children can build, control, and play an interactive instrument.</p>
+                    <ul class="list-disc list-inside space-y-1.5 text-base text-body mb-6">
+                        <li>Built around ESP32-S3 hardware with BLE MIDI, Wi-Fi access point mode, and LED feedback.</li>
+                        <li>Included a responsive web interface for real-time control and programmable light and sound patterns.</li>
+                        <li>Designed for classrooms, therapy settings, and STEAM-focused learning experiences.</li>
+                    </ul>
+                    <div class="flex flex-wrap gap-3 mb-6">
+                        <span class="skill-tag">ESP32-S3</span>
+                        <span class="skill-tag">BLE MIDI</span>
+                        <span class="skill-tag">PlatformIO</span>
+                        <span class="skill-tag">Web Interface</span>
                     </div>
+                    <a href="https://github.com/stevenfokoua/piano_modular" target="_blank" rel="noopener noreferrer" class="font-medium hover:underline" style="color: var(--celadon-light); transition: all 0.2s;">View project repository</a>
+                </div>
+                <div class="card glow-hover" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="flex items-start justify-between gap-4 mb-4">
+                        <div>
+                            <p class="text-sm font-medium uppercase tracking-[0.2em] mb-2" style="color: var(--celadon-light);">Software Tooling Project</p>
+                            <h3 class="text-2xl font-semibold" style="color: var(--white);">SolidWorks MCP GUI</h3>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--celadon-light); flex-shrink: 0;"><rect x="2" y="3" width="20" height="14" rx="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+                    </div>
+                    <p class="mb-5 text-body">Created a Python-based GUI to make working with a SolidWorks MCP workflow more accessible, with a focus on simplifying interaction between engineering tools and model-driven processes.</p>
+                    <ul class="list-disc list-inside space-y-1.5 text-base text-body mb-6">
+                        <li>Focused on usability for engineering workflows that benefit from a dedicated graphical interface.</li>
+                        <li>Showcases my interest in combining software tooling with mechanical design environments.</li>
+                        <li>Represents a practical project centered on improving accessibility and workflow efficiency.</li>
+                    </ul>
+                    <div class="flex flex-wrap gap-3 mb-6">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">GUI Development</span>
+                        <span class="skill-tag">SolidWorks</span>
+                        <span class="skill-tag">MCP</span>
+                    </div>
+                    <a href="https://github.com/stevenfokoua/Solidworks-mcp" target="_blank" rel="noopener noreferrer" class="font-medium hover:underline" style="color: var(--celadon-light); transition: all 0.2s;">View project repository</a>
                 </div>
             </div>
             <p class="mt-10" style="color: rgba(248, 250, 249, 0.75);" data-aos="fade-up" data-aos-delay="300">
-                In the meantime, feel free to ask about specific types of projects or check out my <a href="https://www.linkedin.com/in/bryan-fossi-7782201a1/" target="_blank" rel="noopener noreferrer" class="font-medium hover:underline" style="color: var(--celadon-light); transition: all 0.2s;">LinkedIn profile</a> for updates.
+                I continue to expand this portfolio with more engineering and software work. In the meantime, feel free to connect with me on <a href="https://www.linkedin.com/in/bryan-fossi-7782201a1/" target="_blank" rel="noopener noreferrer" class="font-medium hover:underline" style="color: var(--celadon-light); transition: all 0.2s;">LinkedIn</a> or explore more of my work on <a href="https://github.com/stevenfokoua" target="_blank" rel="noopener noreferrer" class="font-medium hover:underline" style="color: var(--celadon-light); transition: all 0.2s;">GitHub</a>.
             </p>
         </div>
     </section>
